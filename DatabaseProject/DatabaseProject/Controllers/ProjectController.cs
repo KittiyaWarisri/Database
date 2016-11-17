@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace DatabaseProject.Controllers
 {
     public class ProjectController : Controller
@@ -19,7 +20,7 @@ namespace DatabaseProject.Controllers
         }
         public ActionResult FindReSultEm()
         {
-            return View("FindReSultEm");
+            return View("FindReSultEm"); //ยังไม่ได้ทำ
         }
         public ActionResult DelEm()
         {
@@ -47,40 +48,40 @@ namespace DatabaseProject.Controllers
         }
         public ActionResult EditDetialRes()
         {
-            return View("EditDetialRes");
+            return View("EditDetialRes");//ยัง
         }
         public ActionResult Timetable_em()
         {
-            return View("Timetable_em");
+            return View("Timetable_em");//ยัง
         }
         public ActionResult AddLeaveOnEm()
         {
-            return View("AddLeaveOnEm");
+            return View("AddLeaveOnEm");//ยัง
         }
         public ActionResult LeaveOn()
         {
-            return View("LeaveOn");
+            return View("LeaveOn");//ยัง
         }
         public ActionResult AllowLeaveOn()
         {
-            return View("AllowLeaveOn");
+            return View("AllowLeaveOn");//ยัง
         }
         public ActionResult FitnessAmount()
         {
-            return View("FitnessAmount");
+            return View("FitnessAmount");//ยัง
         }
         public ActionResult CarID()
         {
-            return View("CarID");
+            return View("CarID");//ยัง
         }
         public ActionResult AddCarID()
         {
-            return View("AddCarID");
+            return View("AddCarID");//ยัง
         }
         public ActionResult LateEm()
         {
-            return View("LateEm");
+            return View("LateEm");//ยัง
         }
-
+       
     }
 }
